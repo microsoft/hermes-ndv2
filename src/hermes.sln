@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hermes", "hermes\hermes.vcxproj", "{AC9002B8-8526-4A0F-A77B-4AAD80350396}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81D74EE0-3C7F-4731-8208-3CA6ADD44958} = {81D74EE0-3C7F-4731-8208-3CA6ADD44958}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ndv2lib", "ndv2lib\ndv2lib.vcxproj", "{81D74EE0-3C7F-4731-8208-3CA6ADD44958}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pingpong", "Pingpong\Pingpong.vcxproj", "{0F57C289-EFCB-4237-B160-06D03E1E7D2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC9002B8-8526-4A0F-A77B-4AAD80350396} = {AC9002B8-8526-4A0F-A77B-4AAD80350396}
+		{81D74EE0-3C7F-4731-8208-3CA6ADD44958} = {81D74EE0-3C7F-4731-8208-3CA6ADD44958}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{3FB1188B-58A6-45A8-AE20-CCBDC0E4720B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mala", "..\extern\mala\src\lib\mala.vcxproj", "{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9002B8-8526-4A0F-A77B-4AAD80350396}.Debug|x64.ActiveCfg = Debug|x64
+		{AC9002B8-8526-4A0F-A77B-4AAD80350396}.Debug|x64.Build.0 = Debug|x64
+		{AC9002B8-8526-4A0F-A77B-4AAD80350396}.Release|x64.ActiveCfg = Release|x64
+		{AC9002B8-8526-4A0F-A77B-4AAD80350396}.Release|x64.Build.0 = Release|x64
+		{81D74EE0-3C7F-4731-8208-3CA6ADD44958}.Debug|x64.ActiveCfg = Debug|x64
+		{81D74EE0-3C7F-4731-8208-3CA6ADD44958}.Debug|x64.Build.0 = Debug|x64
+		{81D74EE0-3C7F-4731-8208-3CA6ADD44958}.Release|x64.ActiveCfg = Release|x64
+		{81D74EE0-3C7F-4731-8208-3CA6ADD44958}.Release|x64.Build.0 = Release|x64
+		{0F57C289-EFCB-4237-B160-06D03E1E7D2D}.Debug|x64.ActiveCfg = Debug|x64
+		{0F57C289-EFCB-4237-B160-06D03E1E7D2D}.Debug|x64.Build.0 = Debug|x64
+		{0F57C289-EFCB-4237-B160-06D03E1E7D2D}.Release|x64.ActiveCfg = Release|x64
+		{0F57C289-EFCB-4237-B160-06D03E1E7D2D}.Release|x64.Build.0 = Release|x64
+		{3FB1188B-58A6-45A8-AE20-CCBDC0E4720B}.Debug|x64.ActiveCfg = Debug|x64
+		{3FB1188B-58A6-45A8-AE20-CCBDC0E4720B}.Debug|x64.Build.0 = Debug|x64
+		{3FB1188B-58A6-45A8-AE20-CCBDC0E4720B}.Release|x64.ActiveCfg = Release|x64
+		{3FB1188B-58A6-45A8-AE20-CCBDC0E4720B}.Release|x64.Build.0 = Release|x64
+		{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}.Debug|x64.ActiveCfg = Debug|x64
+		{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}.Debug|x64.Build.0 = Debug|x64
+		{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}.Release|x64.ActiveCfg = Release|x64
+		{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

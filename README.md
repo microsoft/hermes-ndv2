@@ -1,2 +1,5 @@
 # hermes
-Messaging library on top of NDv2 (Microsoft's RDMA interface)
+Code example for NDv2, Microsoft's RDMA interface
+
+This project implements a messaging library with async send and receive APIs.
+
